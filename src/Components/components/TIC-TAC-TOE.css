@@ -1,0 +1,49 @@
+.title{
+    color:white;
+    text-align: center;
+    margin-top:200px;
+    font-size:35px;
+}
+.title span{
+    color:cyan;
+}
+.box{
+    width:180px;
+    height:180px;
+    background-color:darkcyan;
+    margin:5px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.board{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+.row1,.row2,.row3{
+    display:flex;
+}
+.reset{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:50px;
+}
+.reset button{
+    color:rgb(117, 233, 233);
+    background:rgb(1, 102, 102);
+    width:200px;
+    height:80px;
+    font-size:25px;
+    font-weight:700;
+    border-radius:10px;
+    border:none;
+    outline:none;
+
+}
+.title img{
+    height:30px;
+}
